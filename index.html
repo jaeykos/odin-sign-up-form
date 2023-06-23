@@ -5,24 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="photo">
-        <img src="./resources/stormseeker-Ws92xzbSris-unsplash.jpg" alt="background image   ">
+    <div id="leftSide">
         <div id="logoWrapper">
-            <div id="logo">
-                
-            </div>
+            <img id="logo" src="/resources/odinLogo.png" alt="logo">
+            <div id="brandName">ODIN & JK</div>
         </div>
     </div>
-    <div>
-        <div id="text1Div"></div>
-        <div id="text2Div"></div>
-        <div id="formDiv"></div>
-        <button id="createAccountBtn"></button>
-        <div>
-            <div>Already have an account?</div>
-            <div id="logInText">Log in</div>
+    <div id="rightSide">
+        <div id="text1Div">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </div>
+        <div id="text2Div">You know <em>you</em> want to.</div>
+        <fieldset>
+            <legend>Let's do this!</legend>
+                <div id="formGridContainer">
+                    <label for="fName">FIRST NAME</label>
+                    <label for="lName">LAST NAME</label>
+                    <input type="text" name="fName" id="fName">
+                    <input type="text" name="lName" id="lName">
+    
+                    <label for="email">EMAIL</label>
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="email" name="email" id="email">
+                    <input type="tel" name="phone" id="phone">
+    
+                    <label for="password">PASSWORD</label>
+                    <label for="confirmPassword">CONFIRM PASSWORD</label>
+                    <input type="password" name="password" id="password">
+                    <input type="password" name="confirmPassword" id="confirmPassword">    
+                </div>
+        </fieldset>
+
+        <button id="createAccountBtn">Create Account</button>
+        <div id="logInDiv">
+            <span>Already have an account?</span>
+            <a id="logInText" href="">Log in</a>
         </div>
     </div>
 
