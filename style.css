@@ -28,7 +28,7 @@ body{
     min-width: clamp(19rem,40%, 62.5rem);
     height:100%;
     background-size:cover;
-    background-image: url('/resources/stormseeker-Ws92xzbSris-unsplash.jpg');
+    background-image: url('resources/stormseeker-Ws92xzbSris-unsplash.jpg');
 } 
 
 #rightSide{
