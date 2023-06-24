@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: norse-bold;
-    src: url('/resources/Norse-Bold.otf');
+    src: url('resources/Norse-Bold.otf');
 }
 
 html{
